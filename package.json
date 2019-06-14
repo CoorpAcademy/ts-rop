@@ -1,0 +1,24 @@
+{
+  "name": "typescript-rop",
+  "version": "1.0.0",
+  "description": "Railway oriented programming library",
+  "main": "index.js",
+  "files": [
+    "lib/index.js"
+  ],
+  "scripts": {
+    "prepare": "tsc",
+    "pretest": "tsc --noEmit",
+    "test": "ts-node test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fp-ts": "^1.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "ts-node": "^8.2.0",
+    "typescript": "^3.5.2"
+  }
+}
